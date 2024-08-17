@@ -1,5 +1,5 @@
 body {
-  background-color: #7594dc;
+  background-image: url('./img/bg.jpg');
 }
 
 .container {
@@ -15,9 +15,8 @@ body {
 
 header {
   text-align: center;
-  background-color: #020e44;
+  background-color: #080042;
   color: white;
-  border-radius: 6px;
 }
 
 main {
