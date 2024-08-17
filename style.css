@@ -2,6 +2,17 @@ body {
   background-color: #7594dc;
 }
 
+.container {
+  background-color: white;
+  border: 1px solid black;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 header {
   text-align: center;
   background-color: #020e44;
@@ -24,16 +35,7 @@ h2 {
   font-size: 32px;
 }
 
-.container {
-  background-color: white;
-  border: 1px solid black;
-  width: 800px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  border-radius: 6px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-}
+
 
 img {
   width: 100%;
@@ -76,4 +78,29 @@ a {
 
 li {
   margin: 4px 0;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  header p {
+    font-size: 12px;
+  }
+
+  main {
+    padding: 0;
+  }
+
+  main img {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+
 }
